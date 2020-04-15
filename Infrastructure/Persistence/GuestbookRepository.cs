@@ -26,7 +26,8 @@ namespace Infrastructure.Persistence
             using (var db = _sqlConnectionFactory.Open())
             {
                 const string sql = @"SELECT Name, Message, CreatedAt as Date
-                                    FROM GuestbookEntry;";
+                                    FROM GuestbookEntry
+                                    ORDER BY CreatedAt ASC;";
 
                 return await db.QueryAsync<GuestbookEntry>(sql);
             }
