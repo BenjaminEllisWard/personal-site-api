@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2019
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "myCoreApi", "myCoreApi\myCoreApi.csproj", "{4E050266-3B34-4953-8277-C55E7EE037A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "myCoreApi", "myCoreApi\myCoreApi.csproj", "{4E050266-3B34-4953-8277-C55E7EE037A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{33FB3503-D110-4B47-B042-0D5610F47D49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{4E050266-3B34-4953-8277-C55E7EE037A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4E050266-3B34-4953-8277-C55E7EE037A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4E050266-3B34-4953-8277-C55E7EE037A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FB3503-D110-4B47-B042-0D5610F47D49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FB3503-D110-4B47-B042-0D5610F47D49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FB3503-D110-4B47-B042-0D5610F47D49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FB3503-D110-4B47-B042-0D5610F47D49}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
