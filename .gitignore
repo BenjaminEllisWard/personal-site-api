@@ -260,3 +260,5 @@ paket-files/
 __pycache__/
 *.pyc
 /myCoreApi/Properties/PublishProfiles/FolderProfile.pubxml
+/secrets.txt
+/myCoreApi/Properties/PublishProfiles/CustomProfile.pubxml
