@@ -262,3 +262,5 @@ __pycache__/
 /myCoreApi/Properties/PublishProfiles/FolderProfile.pubxml
 /secrets.txt
 /myCoreApi/Properties/PublishProfiles/CustomProfile.pubxml
+/myCoreApi/appsettings.json
+/myCoreApi/appsettings.Development.json
